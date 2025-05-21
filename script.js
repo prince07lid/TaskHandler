@@ -19,6 +19,7 @@ class TaskManager {
         this.sortBtn.addEventListener('click', this.toggleSort.bind(this));
 
         // Initial render
+        //I updated .
         this.render();
     }
 
