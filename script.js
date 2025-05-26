@@ -3,7 +3,7 @@ class TaskManager {
         this.tasks = JSON.parse(localStorage.getItem('tasks')) || [];
         this.currentFilter = 'all';
         this.isSortedByNewest = true;
-
+         //updated second time for pr
         // DOM Elements
         this.taskForm = document.getElementById('taskForm');
         this.taskInput = document.getElementById('taskInput');
